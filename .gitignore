@@ -1,0 +1,12 @@
+node_modules/
+
+.idea/
+*.iml
+
+*swp
+*log
+.DS_Store
+
+output/*
+.project
+
