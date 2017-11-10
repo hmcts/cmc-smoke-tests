@@ -1,0 +1,12 @@
+*
+
+!package.json
+!yarn.lock
+
+!codecept.conf.js
+!bootstrap.js
+!config.js
+!proxy-settings.js
+!test-data.js
+!lib/**
+!tests/**
