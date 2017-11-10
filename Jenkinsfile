@@ -7,12 +7,14 @@ properties(
   ]
 )
 
-stage('Checkout') {
-  deleteDir()
-  checkout scm
-}
+node {
+    stage('Checkout') {
+      deleteDir()
+      checkout scm
+    }
 
-stage('Hello') {
-  sh 'echo "Hello, world!"'
+    stage('Hello') {
+      sh 'echo "Hello, world!"'
+    }
 }
 
