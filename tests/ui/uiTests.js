@@ -5,6 +5,6 @@ Feature('UI smoke tests')
 
 Scenario('It should be possible to load the application', (I) => {
   I.amOnPage(contextPath)
-  I.see('Sign in to get started.')
+  I.see('Sign in')
 })
 
